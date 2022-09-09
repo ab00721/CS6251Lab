@@ -12,6 +12,16 @@ header {
     font-family: Georgia, serif;
 }
 
+nav {
+    background-color: #90C7E3;
+    font-weight: bold;
+    padding: .5em .5em .5em 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 h1 {
     line-height: 200%;
     background-image: url(images/sunset.jpg);
@@ -22,15 +32,18 @@ h1 {
     margin-bottom: 0;
 }
 
-nav {
-    background-color: #90C7E3;
-    font-weight: bold;
-    padding: .5em .5em .5em 2em;
-}
-
 h2 {
     color: #3399CC;
     font-family: Georgia, serif;
+}
+
+h3 {
+    color: #000033;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 dt {
@@ -43,13 +56,6 @@ dt {
     font-size: 1.2em;
 }
 
-footer {
-    font-size: 0.70em;
-    font-style: italic;
-    text-align: center;
-    padding: 1em;
-}
-
 #wrapper {
     background-color: #FFFFFF;
     box-shadow: 5px 5px 5px #000000;
@@ -58,15 +64,6 @@ footer {
     box-shadow: drop-shadow;
     margin-right: auto;
     margin-left: auto;
-}
-
-h3 {
-    color: #000033;
-}
-
-main {
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 #homehero {
@@ -90,6 +87,9 @@ main {
     background-repeat: no-repeat;
 }
 
-nav a {
-    text-decoration: none;
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
 }
