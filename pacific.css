@@ -1,7 +1,7 @@
 body {
     background-color: #3399CC;
-    background-image: linear-gradient(to bottom, 
-    #3399CC, #C2E0F0, #3399CC);
+    background-image: linear-gradient(to bottom,
+            #3399CC, #C2E0F0, #3399CC);
     color: #666666;
     font-family: Veranda, Arial, sans-serif;
 }
@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:link {
-    color:#FFFFFF
+    color: #FFFFFF
 }
 
 nav a:visited {
@@ -112,6 +112,14 @@ dt {
     margin-left: 170px;
 }
 
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
 footer {
     font-size: 0.70em;
     font-style: italic;
@@ -122,9 +130,12 @@ footer {
 }
 
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     display: block;
 }
