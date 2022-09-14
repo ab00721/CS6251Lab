@@ -242,19 +242,20 @@ footer {
 }
 
 table {
-    border: 1px #3399CC;
-    width: 90%;
     margin: auto;
+    width: 90%;
+    border: 1px solid #3399CC;    
     border-collapse: collapse;
 }
 
-td,
 th {
     padding: 5px;
-    border: 1px #3399CC;
+    border: 1px solid #3399CC;
 }
 
 td {
+    padding: 5px;
+    border: 1px solid #3399CC;
     text-align: center;
 }
 
