@@ -240,3 +240,28 @@ footer {
         display: none;
     }
 }
+
+table {
+    border: 1px #3399CC;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F5FAFC;
+}
