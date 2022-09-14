@@ -139,3 +139,52 @@ main,
 footer {
     display: block;
 }
+
+@media only screen and (max-width: 1042px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+
+    #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        padding: 0.01em 1em 0.01em 1em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding-right: 2em;
+    }
+
+    main {
+        padding: 1em;
+        margin-left: 0;
+        font-size: 90%;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    #homehero,
+    #yurthero,
+    #trailhero {
+        margin-left: 0;
+    }
+}
