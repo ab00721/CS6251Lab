@@ -188,3 +188,55 @@ footer {
         margin-left: 0;
     }
 }
+
+@media only all and (max-width: 768px) {
+    h1 {
+        height: 100%;
+        font-size: 1.5em;
+        padding-left: 0.3em;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        font-size: 1.1em;
+        border-bottom: 1px #330000;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        padding: 0.1em 0.6em 0.1em 0.4em;
+    }
+
+    #homehero,
+    #yurthero,
+    #trailhero {
+        display: none;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    #mobile {
+        display: inline;
+    }
+
+    #desktop {
+        display: none;
+    }
+}
