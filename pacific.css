@@ -244,7 +244,7 @@ footer {
 table {
     margin: auto;
     width: 90%;
-    border: 1px solid #3399CC;    
+    border: 1px solid #3399CC;
     border-collapse: collapse;
 }
 
@@ -265,4 +265,21 @@ td {
 
 tr:nth-of-type(even) {
     background-color: #F5FAFC;
+}
+
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 10em;
 }
