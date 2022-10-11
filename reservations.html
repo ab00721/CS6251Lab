@@ -30,17 +30,17 @@
             <h2>Reservations at Pacific Trails</h2>
             <h3>Contact Us</h3>
             <p>Required information is marked with an asterisk (*).</p>
-            <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
-                <label for="myFName">*First Name:</label>
-                <input type="text" name="myFName" id="myFName" required>
-                <label for="myLName">*Last Name:</label>
-                <input type="text" name="myLName" id="myLName" required>
+            <form method="post" onsubmit="return validateForm();" action="https://webdevbasics.net/scripts/pacific.php">
+                <label for="myFName">First Name:</label>
+                <input type="text" name="myFName" id="myFName">
+                <label for="myLName">Last Name:</label>
+                <input type="text" name="myLName" id="myLName">
                 <label for="myEmail">*E-mail:</label>
-                <input type="email" name="myEmail" id="myEmail" required>
+                <input type="email" name="myEmail" id="myEmail">
                 <label for="myPhone">Phone:</label>
                 <input type="tel" name="myPhone" id="myPhone">
-                <label for="myComments">*Comments:</label>
-                <textarea name="myComments" id="myComments" cols="20" rows="2" required></textarea>
+                <label for="myComments">Comments:</label>
+                <textarea name="myComments" id="myComments" cols="20" rows="2"></textarea>
                 <label for="arrivalDate">Arrival Date:</label>
                 <input type="date" name="arrivalDate" id="arrivalDate">
                 <label for="Nights">Nights:</label>
@@ -56,6 +56,7 @@
         </footer>
 
     </div>
+    <script src="./pacifc.js"></script>
 </body>
 
 </html>
